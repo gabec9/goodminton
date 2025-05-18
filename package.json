@@ -1,0 +1,24 @@
+{
+  "name": "goodminton",
+  "version": "1.0.0",
+  "description": "Agenda: - Easy attendance with easy copy + paste for checkin - Competitive system with KoTH (think like getting a point) - idk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabec9/goodminton.git"
+  },
+  "author": "Gabriel Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabec9/goodminton/issues"
+  },
+  "homepage": "https://github.com/gabec9/goodminton#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1"
+  }
+}
