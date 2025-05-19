@@ -12,6 +12,6 @@ $.ajax({
     console.log(data);
     // 'data' is an Array of Objects
     // ADD YOUR CODE HERE
-    test.append("<h1>Data from Google Sheets</h1>");
+    test.append("<h1>new</h1>");
   },
 });
