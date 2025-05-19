@@ -1,5 +1,5 @@
 const sheetId = "1xSPdXqqipdbDJ9Seri0dKnhMPA8wT5B7U3Ev91Ea5Lc";
-const sheetName = encodeURIComponent("INTRO");
+const sheetName = encodeURIComponent("Racket Rentals");
 const sheetURL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 const test = $('#test')
 
@@ -12,6 +12,6 @@ $.ajax({
     console.log(data);
     // 'data' is an Array of Objects
     // ADD YOUR CODE HERE
-    test.append(`<p>${data}</p>`)
+    test.append("<h1>Data from Google Sheets</h1>");
   },
 });
