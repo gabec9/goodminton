@@ -1,6 +1,7 @@
 const sheetId = "1xSPdXqqipdbDJ9Seri0dKnhMPA8wT5B7U3Ev91Ea5Lc";
 const sheetName = encodeURIComponent("INTRO");
 const sheetURL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
+const test = $('#test')
 
 $.ajax({
   type: "GET",
@@ -11,5 +12,6 @@ $.ajax({
     console.log(data);
     // 'data' is an Array of Objects
     // ADD YOUR CODE HERE
+    test.append(`<p>${data}</p>`)
   },
 });
