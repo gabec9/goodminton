@@ -8,10 +8,12 @@ $.ajax({
   url: sheetURL,
   dataType: "text",
   success: function (response) {
-    var data = $.csv.toObjects(response);
+    var data = $.csv(response);
     console.log(data);
     // 'data' is an Array of Objects
     // ADD YOUR CODE HERE
-    test.append("<h1>new</h1>");
+    for(const x = 0; x < data.length; x++){
+      test.append("<p>new</p>");
+    }
   },
 });
