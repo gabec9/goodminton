@@ -11,7 +11,7 @@ $.ajax({
     console.log(response);
     // 'data' is an Array of Objects
     // ADD YOUR CODE HERE
-    for(const x = 0; x < response.length; x++){
+    for(let x = 0; x < response.length; x++){
       test.append("<p>new</p>");
     }
   },
